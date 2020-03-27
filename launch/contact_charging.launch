@@ -1,0 +1,10 @@
+<launch>
+
+    <include file="$(find magni_nav)/launch/move_basic.launch"/>
+    <include file="$(find magni_description)/launch/description.launch"/>
+    <include file="$(find raspicam_node)/launch/camerav2_1280x960.launch" />
+
+    
+	<node pkg="contact_charging" type="contact_charging.py" name="contact_charging" output="screen"></node>
+
+<launch>

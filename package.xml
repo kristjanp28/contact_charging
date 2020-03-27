@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+	<name>contact_charging</name>
+	<version>0.0.1</version>
+	<description>
+		Node that monitors robot's battery level and docks it into Ubiquity Robotics contact charger
+	</description>
+	<maintainer email="kristjan.povse@gmail.com">Kristjan Povše</maintainer>
+	<license>BSD</license>
+	<buildtool_depend>catkin</buildtool_depend>
+	<run_depend>std_msgs</run_depend>
+	<run_depend>geometry_msgs</run_depend>
+	<run_depend>sensor_msgs</run_depend>
+
+</package>
